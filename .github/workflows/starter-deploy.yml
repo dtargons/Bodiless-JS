@@ -1,0 +1,17 @@
+name: Deploy Starter
+
+on:
+  workflow_call:
+
+jobs:
+  setup:
+    name: Setup, Build, Lint
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event_name == 'schedule' && 'main' || github.event.pull_request.head.sha }}
+      - name: Build
+        uses: ./.github/actions/build
+      - name: Lint
+        run: npm run lint

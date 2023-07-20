@@ -1,0 +1,17 @@
+name: Starter Test Workflow Listener
+
+on:
+  pull_request_target:
+    types: [labeled]
+    branches:
+      - main
+      - 'upgrade/**'
+
+jobs:
+  on-label:
+    permissions:
+      checks: write
+      pull-requests: write
+    uses: dtargons/Bodiless-JS/.github/workflows/starter-deploy.yml@dt_test
+    secrets: inherit
+    if: ${{ github.event.label.name == 'dt-test' || github.event.label.name == 'skip-tests' }}

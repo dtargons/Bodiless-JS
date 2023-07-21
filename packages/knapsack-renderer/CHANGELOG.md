@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.43 (2023-07-21)
+
+### Bug Fixes
+
+- **chore:** Fix tests ([258c7da](https://github.com/johnsonandjohnson/Bodiless-JS/commit/258c7da25a324958047b3f55c6ff3bd2f56ebe1f))
+- **knapsack-renderer:** Fix imports and type issues ([02a2825](https://github.com/johnsonandjohnson/Bodiless-JS/commit/02a282548a12934f276844c99d06245ccc928338))
+- **knapsack:** Fix import name ([58daa0a](https://github.com/johnsonandjohnson/Bodiless-JS/commit/58daa0a4fbed21165701c7101cd07e20ae12181b))
+- **knapsack:** Fix knapsack package versions ([8f4b6f0](https://github.com/johnsonandjohnson/Bodiless-JS/commit/8f4b6f018d2bc603ba597e53a68c939cf4e9f3eb))
+
+### Features
+
+- **chore:** Add token support to knapsack with initial tokens. ([#2126](https://github.com/johnsonandjohnson/Bodiless-JS/issues/2126)) ([e85ddde](https://github.com/johnsonandjohnson/Bodiless-JS/commit/e85dddee495a2ca598c01a5c02afb37828de5a2c))
+- **chore:** address PR fedback ([d29d72c](https://github.com/johnsonandjohnson/Bodiless-JS/commit/d29d72c2708be412770ac07d3c198f7c999fa262))
+- **chore:** Generalize KnapsackSpec type and move it to elements ([c14f1e6](https://github.com/johnsonandjohnson/Bodiless-JS/commit/c14f1e6c5361aa0b7fbfdcd4a419d9980f859b4e))
+- **chore:** Update Knapsack ([10bf110](https://github.com/johnsonandjohnson/Bodiless-JS/commit/10bf1106182f92f1fbdb30ad1366326a2960fc0d))
+- **knapsack-renderer, vital-card, vital-elements:** Fix type issues, update knapsack packages ([37935b2](https://github.com/johnsonandjohnson/Bodiless-JS/commit/37935b27fdd36f94979c22539a355cc7eab9bb0f))
+
 # [1.0.0-rc.42](https://github.com/johnsonandjohnson/Bodiless-JS/compare/v1.0.0-rc.41...v1.0.0-rc.42) (2023-06-15)
 
 ### Bug Fixes

@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.43 (2023-07-21)
+
+### Bug Fixes
+
+- **@bodiless/search, gatsby-theme-bodiless:** Fix/transpile to esm search and gatsby theme bodiless ([#2023](https://github.com/johnsonandjohnson/bodiless-js/issues/2023)) ([ad864af](https://github.com/johnsonandjohnson/bodiless-js/commit/ad864af6f0ef30b8df91528d7e9d4adc6615fbf9))
+- **vital-test, **vital**:** fix Shadowing and move to vital-test ([#1787](https://github.com/johnsonandjohnson/bodiless-js/issues/1787)) ([33be350](https://github.com/johnsonandjohnson/bodiless-js/commit/33be350c21971f0a083efba94e360fbe928a071e))
+
+### Features
+
+- **chore:** Cleanup Vital Component tokens ([723c773](https://github.com/johnsonandjohnson/bodiless-js/commit/723c7736311c5b6f3d79bdddec76bdcb1e75551a))
+- **chore:** Code cleanup ([680cc4b](https://github.com/johnsonandjohnson/bodiless-js/commit/680cc4b55d7b93bd5fac2a8a9f4ea3c73cf1a642))
+- **next, vital-demo-next, **vital-next**, **minimal-next**:** Add support to run a NextJS site ([#2073](https://github.com/johnsonandjohnson/bodiless-js/issues/2073)) ([d5671ee](https://github.com/johnsonandjohnson/bodiless-js/commit/d5671ee911bb3bb09cee6703e6c689ada3f28c46))
+- Upgrade/react18 ([#2050](https://github.com/johnsonandjohnson/bodiless-js/issues/2050)) ([d889687](https://github.com/johnsonandjohnson/bodiless-js/commit/d889687e1f7b29c020bb336cf1d7b5a32cdf0159))
+- Vital Content Listing ([#1801](https://github.com/johnsonandjohnson/bodiless-js/issues/1801)) ([b71fbad](https://github.com/johnsonandjohnson/bodiless-js/commit/b71fbad220d4141c318a66f33819d41122ab0ee4))
+- **vital-hero, vital-image, vital-card:** Add Hero & Card component and update Image ([#1500](https://github.com/johnsonandjohnson/bodiless-js/issues/1500)) ([95f2c3d](https://github.com/johnsonandjohnson/bodiless-js/commit/95f2c3dcf06c6f51bb6b3d252ca6f4f576899dd4)), closes [pr#1498](https://github.com/pr/issues/1498)
+- **vital-list:** Add new vital list component ([#1554](https://github.com/johnsonandjohnson/bodiless-js/issues/1554)) ([18d6278](https://github.com/johnsonandjohnson/bodiless-js/commit/18d6278865bc21ab4c7f541a595b3e5f46b433f2)), closes [#1559](https://github.com/johnsonandjohnson/bodiless-js/issues/1559)
+
 # [1.0.0-rc.42](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-rc.41...v1.0.0-rc.42) (2023-06-15)
 
 **Note:** Version bump only for package @bodiless/vital-image

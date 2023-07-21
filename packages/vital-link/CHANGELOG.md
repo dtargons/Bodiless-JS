@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.43 (2023-07-21)
+
+### Bug Fixes
+
+- **@bodiless/search, gatsby-theme-bodiless:** Fix/transpile to esm search and gatsby theme bodiless ([#2023](https://github.com/johnsonandjohnson/bodiless-js/issues/2023)) ([ad864af](https://github.com/johnsonandjohnson/bodiless-js/commit/ad864af6f0ef30b8df91528d7e9d4adc6615fbf9))
+- **vital-cards:** update cards with buttons & misc fixes ([#1805](https://github.com/johnsonandjohnson/bodiless-js/issues/1805)) ([362d7f8](https://github.com/johnsonandjohnson/bodiless-js/commit/362d7f88e053982ca901d878c68e12285c67b731))
+- **vital-header, vital-footer:** convert to default breakpoints and adjust header/footer ([#1575](https://github.com/johnsonandjohnson/bodiless-js/issues/1575)) ([537cbab](https://github.com/johnsonandjohnson/bodiless-js/commit/537cbab75e960b805ac0b4ea7826d96dae0f5dbd))
+- **vital-test, **vital**:** fix Shadowing and move to vital-test ([#1787](https://github.com/johnsonandjohnson/bodiless-js/issues/1787)) ([33be350](https://github.com/johnsonandjohnson/bodiless-js/commit/33be350c21971f0a083efba94e360fbe928a071e))
+
+### Features
+
+- **chore:** address PR feedback ([3797395](https://github.com/johnsonandjohnson/bodiless-js/commit/37973957fb551fe54b0f2e0a546ecc18e7d8418e))
+- **next, vital-demo-next, **vital-next**, **minimal-next**:** Add support to run a NextJS site ([#2073](https://github.com/johnsonandjohnson/bodiless-js/issues/2073)) ([d5671ee](https://github.com/johnsonandjohnson/bodiless-js/commit/d5671ee911bb3bb09cee6703e6c689ada3f28c46))
+- Upgrade/react18 ([#2050](https://github.com/johnsonandjohnson/bodiless-js/issues/2050)) ([d889687](https://github.com/johnsonandjohnson/bodiless-js/commit/d889687e1f7b29c020bb336cf1d7b5a32cdf0159))
+- **vital-buttons:** Add Buttons ([#1781](https://github.com/johnsonandjohnson/bodiless-js/issues/1781)) ([e9dc1e5](https://github.com/johnsonandjohnson/bodiless-js/commit/e9dc1e55ed6f9d19dfa7d86375efd2b5ce5ca612))
+
 # [1.0.0-rc.42](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-rc.41...v1.0.0-rc.42) (2023-06-15)
 
 ### Features

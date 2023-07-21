@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.43 (2023-07-21)
+
+### Bug Fixes
+
+- **@bodiless/search, gatsby-theme-bodiless:** Fix/transpile to esm search and gatsby theme bodiless ([#2023](https://github.com/johnsonandjohnson/bodiless-js/issues/2023)) ([ad864af](https://github.com/johnsonandjohnson/bodiless-js/commit/ad864af6f0ef30b8df91528d7e9d4adc6615fbf9))
+- **bodiless-meta, bodiless-listing:** add publishConfig ([#1615](https://github.com/johnsonandjohnson/bodiless-js/issues/1615)) ([48a9525](https://github.com/johnsonandjohnson/bodiless-js/commit/48a9525508d38df64132493d07ceaf3c7cb57259))
+- **vital-test, **vital**:** fix Shadowing and move to vital-test ([#1787](https://github.com/johnsonandjohnson/bodiless-js/issues/1787)) ([33be350](https://github.com/johnsonandjohnson/bodiless-js/commit/33be350c21971f0a083efba94e360fbe928a071e))
+
+### Features
+
+- **next, vital-demo-next, **vital-next**, **minimal-next**:** Add support to run a NextJS site ([#2073](https://github.com/johnsonandjohnson/bodiless-js/issues/2073)) ([d5671ee](https://github.com/johnsonandjohnson/bodiless-js/commit/d5671ee911bb3bb09cee6703e6c689ada3f28c46))
+- Upgrade/react18 ([#2050](https://github.com/johnsonandjohnson/bodiless-js/issues/2050)) ([d889687](https://github.com/johnsonandjohnson/bodiless-js/commit/d889687e1f7b29c020bb336cf1d7b5a32cdf0159))
+- **vital-meta:** Create new vital-meta package. ([#1555](https://github.com/johnsonandjohnson/bodiless-js/issues/1555)) ([f665120](https://github.com/johnsonandjohnson/bodiless-js/commit/f6651201a61c09d02b2974603f486cafedeab252))
+
 # [1.0.0-rc.42](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-rc.41...v1.0.0-rc.42) (2023-06-15)
 
 **Note:** Version bump only for package @bodiless/vital-meta

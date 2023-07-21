@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.43 (2023-07-21)
+
+### Bug Fixes
+
+- **@bodiless/search, gatsby-theme-bodiless:** Fix/transpile to esm search and gatsby theme bodiless ([#2023](https://github.com/johnsonandjohnson/bodiless-js/issues/2023)) ([ad864af](https://github.com/johnsonandjohnson/bodiless-js/commit/ad864af6f0ef30b8df91528d7e9d4adc6615fbf9))
+- **bodiless-docs:** Page order in Docsify ([#2136](https://github.com/johnsonandjohnson/bodiless-js/issues/2136)) ([6866968](https://github.com/johnsonandjohnson/bodiless-js/commit/68669681750a59401b7b4273adb4d10760c5b6ac))
+
+### Features
+
+- **bodiless-ga4 & akamai-auth:** Update the Bodiless GA4 plugin and add Akamai Auth Plugin [canary] ([#1647](https://github.com/johnsonandjohnson/bodiless-js/issues/1647)) ([200d935](https://github.com/johnsonandjohnson/bodiless-js/commit/200d93523da2d68e8740a98bf18a496d3c077060))
+- **gatsby-theme-bodiless, backend, hydration, layouts, tokens, ga4:** Replace crypto-browserify with crypto-js ([#1955](https://github.com/johnsonandjohnson/bodiless-js/issues/1955)) ([bb211c7](https://github.com/johnsonandjohnson/bodiless-js/commit/bb211c74a9e6a1e2e148a5b0d2e5a380250553fe))
+- Upgrade/react18 ([#2050](https://github.com/johnsonandjohnson/bodiless-js/issues/2050)) ([d889687](https://github.com/johnsonandjohnson/bodiless-js/commit/d889687e1f7b29c020bb336cf1d7b5a32cdf0159))
+
 # [1.0.0-rc.42](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-rc.41...v1.0.0-rc.42) (2023-06-15)
 
 **Note:** Version bump only for package @bodiless/ga4

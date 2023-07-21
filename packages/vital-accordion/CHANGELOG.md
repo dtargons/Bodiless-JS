@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.43 (2023-07-21)
+
+### Bug Fixes
+
+- **@bodiless/search, gatsby-theme-bodiless:** Fix/transpile to esm search and gatsby theme bodiless ([#2023](https://github.com/johnsonandjohnson/bodiless-js/issues/2023)) ([ad864af](https://github.com/johnsonandjohnson/bodiless-js/commit/ad864af6f0ef30b8df91528d7e9d4adc6615fbf9))
+
+### Features
+
+- **chore:** Add knapsack specs for Car, Elements, Accordions and templates. Reorganized code to keep specs close to components ([6be4f75](https://github.com/johnsonandjohnson/bodiless-js/commit/6be4f754d6e787b0cde6f13d7f8b24447dd43b44))
+- **chore:** address PR feedback ([3797395](https://github.com/johnsonandjohnson/bodiless-js/commit/37973957fb551fe54b0f2e0a546ecc18e7d8418e))
+- **chore:** Generalize KnapsackSpec type and move it to elements ([c14f1e6](https://github.com/johnsonandjohnson/bodiless-js/commit/c14f1e6c5361aa0b7fbfdcd4a419d9980f859b4e))
+- **chore:** Update Knapsack ([10bf110](https://github.com/johnsonandjohnson/bodiless-js/commit/10bf1106182f92f1fbdb30ad1366326a2960fc0d))
+- **knapsack:** Add todo comments ([250f93e](https://github.com/johnsonandjohnson/bodiless-js/commit/250f93eb2c4b01a78b48cc535be9cc4d6bff07c0))
+- **next, vital-demo-next, **vital-next**, **minimal-next**:** Add support to run a NextJS site ([#2073](https://github.com/johnsonandjohnson/bodiless-js/issues/2073)) ([d5671ee](https://github.com/johnsonandjohnson/bodiless-js/commit/d5671ee911bb3bb09cee6703e6c689ada3f28c46))
+- Upgrade/react18 ([#2050](https://github.com/johnsonandjohnson/bodiless-js/issues/2050)) ([d889687](https://github.com/johnsonandjohnson/bodiless-js/commit/d889687e1f7b29c020bb336cf1d7b5a32cdf0159))
+- **vital-accordion:** Add vital-accordion package ([#1899](https://github.com/johnsonandjohnson/bodiless-js/issues/1899)) ([d5e75a6](https://github.com/johnsonandjohnson/bodiless-js/commit/d5e75a60d33938d09c6b727506991d871e4b7975))
+
 # [1.0.0-rc.42](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-rc.41...v1.0.0-rc.42) (2023-06-15)
 
 ### Features

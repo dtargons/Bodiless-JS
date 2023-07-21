@@ -1,6 +1,6 @@
 {
   "name": "@bodiless/vital-list",
-  "version": "1.0.0-rc.42",
+  "version": "1.0.0-rc.43",
   "description": "Editable Lists for Bodiless/VitalDS",
   "author": "Chris Oden <coden@its.jnj.com>",
   "license": "Apache-2.0",
@@ -33,16 +33,16 @@
     "react": "^18.2.0"
   },
   "dependencies": {
-    "@bodiless/cli": "^1.0.0-rc.42",
-    "@bodiless/components": "^1.0.0-rc.42",
-    "@bodiless/components-ui": "^1.0.0-rc.42",
-    "@bodiless/data": "^1.0.0-rc.42",
-    "@bodiless/fclasses": "^1.0.0-rc.42",
-    "@bodiless/hydration": "^1.0.0-rc.42",
-    "@bodiless/vital-editors": "^1.0.0-rc.42",
-    "@bodiless/vital-elements": "^1.0.0-rc.42",
-    "@bodiless/vital-image": "^1.0.0-rc.42",
-    "@bodiless/vital-link": "^1.0.0-rc.42",
+    "@bodiless/cli": "^1.0.0-rc.43",
+    "@bodiless/components": "^1.0.0-rc.43",
+    "@bodiless/components-ui": "^1.0.0-rc.43",
+    "@bodiless/data": "^1.0.0-rc.43",
+    "@bodiless/fclasses": "^1.0.0-rc.43",
+    "@bodiless/hydration": "^1.0.0-rc.43",
+    "@bodiless/vital-editors": "^1.0.0-rc.43",
+    "@bodiless/vital-elements": "^1.0.0-rc.43",
+    "@bodiless/vital-image": "^1.0.0-rc.43",
+    "@bodiless/vital-link": "^1.0.0-rc.43",
     "lodash": "^4.17.19"
   }
 }

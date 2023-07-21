@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.43 (2023-07-21)
+
+### Bug Fixes
+
+- **filtering, page, next:** editing bugs on NextJS ([#2090](https://github.com/johnsonandjohnson/bodiless-js/issues/2090)) ([0ce686b](https://github.com/johnsonandjohnson/bodiless-js/commit/0ce686b469d0ab09cb2ede96a24f91512c68110f))
+- **vital-demo-next:** update id & data layer name ([#2167](https://github.com/johnsonandjohnson/bodiless-js/issues/2167)) ([6fb263b](https://github.com/johnsonandjohnson/bodiless-js/commit/6fb263bd41cf03ce96c83b68964cef903fc49429))
+- **vital-search:** Deprecrate Search from vital demo sites ([#2160](https://github.com/johnsonandjohnson/bodiless-js/issues/2160)) ([31479b3](https://github.com/johnsonandjohnson/bodiless-js/commit/31479b38d9ba4b95ae5a618fa2f5db54359ea47a))
+
+### Features
+
+- **next, vital-demo-next, **vital-next**, **minimal-next**:** Add support to run a NextJS site ([#2073](https://github.com/johnsonandjohnson/bodiless-js/issues/2073)) ([d5671ee](https://github.com/johnsonandjohnson/bodiless-js/commit/d5671ee911bb3bb09cee6703e6c689ada3f28c46))
+
 # [1.0.0-rc.42](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-rc.41...v1.0.0-rc.42) (2023-06-15)
 
 **Note:** Version bump only for package @sites/vital-demo-next

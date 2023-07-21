@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.43 (2023-07-21)
+
+### Bug Fixes
+
+- Add package dependecy ([638f5dd](https://github.com/johnsonandjohnson/bodiless-js/commit/638f5dd744f7936ec8ec3b02791695078a4b62f1))
+- Addressing feedback form PR ([bb45365](https://github.com/johnsonandjohnson/bodiless-js/commit/bb453659a73ce2d85b341ee64f67d9f1f61cbef2))
+- Addressing feedback form PR ([9b38eec](https://github.com/johnsonandjohnson/bodiless-js/commit/9b38eec3e59af4d2fa0b884b46e58b3dbfe8d7a1))
+- Addressing feedback form PR ([d9f7ea0](https://github.com/johnsonandjohnson/bodiless-js/commit/d9f7ea0b339c7b12ccdee4e7a7812dba62f4580d))
+- Addressing PR feedback ([e1edfa1](https://github.com/johnsonandjohnson/bodiless-js/commit/e1edfa15d67608f4baf47a3bcdc73c578945b607))
+- Addressing PR feedback ([b94d0f7](https://github.com/johnsonandjohnson/bodiless-js/commit/b94d0f793b0f0cb42ea26dbe3e65270fb9ca0101))
+- Addressing typography feedbacks ([bcb15bd](https://github.com/johnsonandjohnson/bodiless-js/commit/bcb15bd4cab75118ba85f6723cc3ffb50263247e))
+- **bodiless-docs:** Page order in Docsify ([#2136](https://github.com/johnsonandjohnson/bodiless-js/issues/2136)) ([6866968](https://github.com/johnsonandjohnson/bodiless-js/commit/68669681750a59401b7b4273adb4d10760c5b6ac))
+- Force cast on Text decoration test ([901108d](https://github.com/johnsonandjohnson/bodiless-js/commit/901108d3b279ca201d9280640a912f6d533d4e78))
+- Implementing suggestions from PR feedback ([84939a3](https://github.com/johnsonandjohnson/bodiless-js/commit/84939a3ba74982ffa379fca8f33d2fd8cdc654ae))
+- Implementing suggestions from PR feedback ([b6d3b7b](https://github.com/johnsonandjohnson/bodiless-js/commit/b6d3b7b289d51e469e7fadd0600c3939e4f917ac))
+- Minor code optimization ([22c23ae](https://github.com/johnsonandjohnson/bodiless-js/commit/22c23ae8cfada1b0f6a7f40f94c7187d82452a02))
+- Moving typography styleguide to vital-elements package ([d1eacd4](https://github.com/johnsonandjohnson/bodiless-js/commit/d1eacd4c12ce36b9b42aed4e3f8bde77c4e6f68f))
+- Update tests snapshots ([b31b022](https://github.com/johnsonandjohnson/bodiless-js/commit/b31b0224e083e76f0348570b808246d3e10d2991))
+- **vita-section, vital-examples:** Fix typo ([b05b8bc](https://github.com/johnsonandjohnson/bodiless-js/commit/b05b8bceb03cf1362287d7ed103766f81d93ebc9))
+- **vita-section, vital-examples:** Update docs ([1dcab38](https://github.com/johnsonandjohnson/bodiless-js/commit/1dcab386280c353c79123c847e7e7869a0f0f14b))
+- **vita-section, vital-examples:** Update patterns for the Schema and Default Content ([f5ed423](https://github.com/johnsonandjohnson/bodiless-js/commit/f5ed42313b0ead134d951887ab6a9a933d7e4cf9))
+- **vital-elements:** Rename vital2Typography to vitalTypographyV2 and export its tokens as part of vitalTypography ([#2155](https://github.com/johnsonandjohnson/bodiless-js/issues/2155)) ([8146c3d](https://github.com/johnsonandjohnson/bodiless-js/commit/8146c3d4565786b253c7ed0d06e2e2af465c1914))
+- **vital-search:** Deprecrate Search from vital demo sites ([#2160](https://github.com/johnsonandjohnson/bodiless-js/issues/2160)) ([31479b3](https://github.com/johnsonandjohnson/bodiless-js/commit/31479b38d9ba4b95ae5a618fa2f5db54359ea47a))
+
+### Features
+
+- **chore:** Update Knapsack ([10bf110](https://github.com/johnsonandjohnson/bodiless-js/commit/10bf1106182f92f1fbdb30ad1366326a2960fc0d))
+- **vital-examples:** Fix Lint ([062b776](https://github.com/johnsonandjohnson/bodiless-js/commit/062b776c63ba320d217c2986041219d74ea773ca))
+- **vital-section:** Add examples page, address PR feedback ([7c1aa40](https://github.com/johnsonandjohnson/bodiless-js/commit/7c1aa40412ff0ed59fbb93ad97f39cc7c8d1c85d))
+
 # [1.0.0-rc.42](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-rc.41...v1.0.0-rc.42) (2023-06-15)
 
 ### Bug Fixes

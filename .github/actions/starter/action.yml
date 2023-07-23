@@ -39,5 +39,3 @@ runs:
       shell: bash
       run: |
         ./packages/bodiless-cli/bin/bodiless new -r HEAD --clone-local --dest 'new/sites/starter-site' --name 'starter-site' --site-template '__vital_next__'
-        cd 'new/sites/starter-site'
-        npm run build

@@ -36,7 +36,7 @@ const configurators = {
     baseConfig.testDir = './playwright/tests/starter';
     baseConfig.webServer = {
       ...defaultServerConfig,
-      command: 'cd new/sites/starter-site && npm run serve:test',
+      command: 'cd new/sites/starter-site && npm start',
     };
     baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');
   },

@@ -27,8 +27,18 @@ const configurators = {
       command: 'cd sites/vital-demo-next && npm run serve:test',
     };
     baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');
-    // Temporarily disable tests for Video page to unblock executions on vital-demo-next
-    baseConfig.testIgnore = '*vital-video.spec.ts';
+    baseConfig.testMatch = '*vital-section.spec.ts';
+  },
+  'smoke-starter': (baseConfig: PlaywrightTestConfig) => {
+    // The number of workers is choosen depending on number of renderers in applitools configuration
+    // in components-visual.spec.ts file
+    baseConfig.workers = process.env.PW_INCLUDE_ALL_RENDERERS === 'true' ? 3 : 5;
+    baseConfig.testDir = './playwright/tests/starter';
+    baseConfig.webServer = {
+      ...defaultServerConfig,
+      command: 'cd sites/starter-site && npm run serve:test',
+    };
+    baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');
   },
 };
 /* eslint-enable no-param-reassign */

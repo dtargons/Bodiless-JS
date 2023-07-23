@@ -37,9 +37,7 @@ runs:
       run: npm run setup
     - name: Create site from template
       shell: bash
-      run: ./packages/bodiless-cli/bin/bodiless new -r HEAD --clone-local --dest 'sites/starter-site' --name 'starter-site' --site-template '__vital_next__'
-    - name: Build site
-      shell: bash
       run: |
+        ./packages/bodiless-cli/bin/bodiless new -r HEAD --clone-local --dest 'sites/starter-site' --name 'starter-site' --site-template '__vital_next__'
         cd 'sites/starter-site'
         npm run build

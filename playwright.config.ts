@@ -7,6 +7,13 @@ const defaultServerConfig = {
   timeout: 10 * 60 * 1000,
 };
 
+const defaultServerStarterConfig = {
+  url: 'http://localhost:8000/',
+  ignoreHTTPSErrors: true,
+  reuseExistingServer: true,
+  timeout: 10 * 60 * 1000,
+};
+
 /* eslint-disable no-param-reassign */
 const configurators = {
   'smoke-deprecated': (baseConfig: PlaywrightTestConfig) => {
@@ -35,7 +42,7 @@ const configurators = {
     baseConfig.workers = process.env.PW_INCLUDE_ALL_RENDERERS === 'true' ? 3 : 5;
     baseConfig.testDir = './playwright/tests/starter';
     baseConfig.webServer = {
-      ...defaultServerConfig,
+      ...defaultServerStarterConfig,
       command: 'cd new/sites/starter-site && npm run dev',
     };
     baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');

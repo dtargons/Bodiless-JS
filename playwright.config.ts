@@ -46,6 +46,12 @@ const configurators = {
       command: 'cd new/sites/starter-site && npm run dev',
     };
     baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');
+    baseConfig.use = {
+        actionTimeout: 0,
+        baseURL: 'http://localhost:8000',
+        trace: 'on',
+        testIdAttribute: 'id'
+    };
   },
 };
 /* eslint-enable no-param-reassign */

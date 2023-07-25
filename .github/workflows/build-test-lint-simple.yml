@@ -73,10 +73,6 @@ jobs:
       - name: Generate web site
         uses: ./.github/actions/starter
       - name: Run playwright tests for generated site
-        env:
-          APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
-          APPLITOOLS_BATCH_NAME: ${{ github.event_name == 'schedule' && 'Starter Regression Test Run' || format('{0} ({1})', github.event.pull_request.title, github.event.pull_request.number) }}
-          PW_INCLUDE_ALL_RENDERERS: ${{ github.event_name == 'schedule' }}
         uses: ./.github/actions/playwright
         with:
           node-test-script: test:starter

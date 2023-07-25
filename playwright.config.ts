@@ -33,14 +33,15 @@ const configurators = {
     // The number of workers is choosen depending on number of renderers in applitools configuration
     // in components-visual.spec.ts file
     baseConfig.workers = process.env.PW_INCLUDE_ALL_RENDERERS === 'true' ? 3 : 5;
-    baseConfig.testDir = './playwright/tests/starter';
+    baseConfig.testDir = './playwright/tests/smoke-deprecated';
     baseConfig.webServer = {
       ...defaultServerConfig,
       url: 'http://localhost:8000/',
-      command: 'cd new/sites/starter-site && npm run dev',
+      command: 'cd generated/sites/starter-site && npm run dev',
     };
     baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');
     baseConfig.use.baseURL = 'http://localhost:8000';
+    baseConfig.testMatch = '*editorMenu.spec.ts';
   },
 };
 /* eslint-enable no-param-reassign */

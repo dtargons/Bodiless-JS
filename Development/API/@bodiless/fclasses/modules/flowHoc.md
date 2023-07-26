@@ -34,4 +34,4 @@ Utilities for adding metadata to tokens.
 
 #### Defined in
 
-[packages/fclasses/src/flowHoc.tsx:198](https://github.com/dtargons/Bodiless-JS/blob/de6b5997/packages/fclasses/src/flowHoc.tsx#L198)
+[packages/fclasses/src/flowHoc.tsx:198](https://github.com/dtargons/Bodiless-JS/blob/49ca1830/packages/fclasses/src/flowHoc.tsx#L198)

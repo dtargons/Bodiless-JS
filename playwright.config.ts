@@ -29,15 +29,15 @@ const configurators = {
     baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');
     baseConfig.testMatch = '*vital-section.spec.ts';
   },
-  'smoke-starter': (baseConfig: PlaywrightTestConfig) => {
-    // The number of workers is choosen depending on number of renderers in applitools configuration
-    // in components-visual.spec.ts file
-    baseConfig.workers = process.env.PW_INCLUDE_ALL_RENDERERS === 'true' ? 3 : 5;
+  'smoke-bodiless-cli': (baseConfig: PlaywrightTestConfig) => {
+    const siteName = 'bodiless'
+    const sitePath = 'generated/sites/' + siteName
+    baseConfig.workers = 1;
     baseConfig.testDir = './playwright/tests/smoke-deprecated';
     baseConfig.webServer = {
       ...defaultServerConfig,
       url: 'http://localhost:8000/',
-      command: './packages/bodiless-cli/bin/bodiless new -r HEAD --clone-local --dest "generated/sites/starter-site" --name "starter-site" --site-template "__vital_next__" && cd generated/sites/starter-site && npm run dev',
+      command: `./packages/bodiless-cli/bin/bodiless new -r HEAD --clone-local --dest '${sitePath}' --name '${siteName}' --site-template "__vital_next__" && cd '${sitePath}' && npm run dev`,
     };
     baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');
     baseConfig.use.baseURL = 'http://localhost:8000';

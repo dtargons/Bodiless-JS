@@ -70,8 +70,6 @@ jobs:
           ref: ${{ github.event_name == 'schedule' && 'main' || github.event.pull_request.head.sha }}
       - name: Build
         uses: ./.github/actions/build
-      - name: Generate web site
-        uses: ./.github/actions/starter
       - name: Run playwright tests for generated site
         uses: ./.github/actions/playwright
         with:

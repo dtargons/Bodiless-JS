@@ -37,7 +37,7 @@ const configurators = {
     baseConfig.webServer = {
       ...defaultServerConfig,
       url: 'http://localhost:8000/',
-      command: 'cd generated/sites/starter-site && npm run dev',
+      command: './packages/bodiless-cli/bin/bodiless new -r HEAD --clone-local --dest "generated/sites/starter-site" --name "starter-site" --site-template "__vital_next__" && cd generated/sites/starter-site && npm run dev',
     };
     baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');
     baseConfig.use.baseURL = 'http://localhost:8000';

@@ -39,8 +39,7 @@ const configurators = {
       url: 'http://localhost:8000/',
       command: `./packages/bodiless-cli/bin/bodiless new -r HEAD --clone-local --dest '${sitePath}' --name '${siteName}' --site-template "__vital_next__" && cd '${sitePath}' && npm run dev`,
     };
-    baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');
-    baseConfig.use.baseURL = 'http://localhost:8000';
+    baseConfig.use!.baseURL = 'http://localhost:8000';
     baseConfig.testMatch = '*editorMenu.spec.ts';
   },
 };

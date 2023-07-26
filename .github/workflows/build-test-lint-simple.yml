@@ -75,13 +75,6 @@ jobs:
         with:
           node-test-script: test:bodiless-cli
           test-results-name: Smoke tests for Bodiless CLI
-#      - name: Upload Accessibility results
-#        if: always()
-#        uses: actions/upload-artifact@v2
-#        with:
-#          name: Accessibility
-#          path: accessibility-reports/
-#          retention-days: 30
 
   cleanup:
     if: always() && github.event_name != 'schedule'

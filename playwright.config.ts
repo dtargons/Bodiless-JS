@@ -27,8 +27,20 @@ const configurators = {
       command: 'cd sites/vital-demo-next && npm run serve:test',
     };
     baseConfig.globalSetup = require.resolve('./playwright/tests/setup/setup.ts');
-    // Temporarily disable tests for Video page to unblock executions on vital-demo-next
-    baseConfig.testIgnore = '*vital-video.spec.ts';
+    baseConfig.testMatch = '*vital-section.spec.ts';
+  },
+  'smoke-bodiless-cli': (baseConfig: PlaywrightTestConfig) => {
+    const siteName = 'bodiless'
+    const sitePath = 'generated/sites/' + siteName
+    baseConfig.workers = 1;
+    baseConfig.testDir = './playwright/tests/smoke-deprecated';
+    baseConfig.webServer = {
+      ...defaultServerConfig,
+      url: 'http://localhost:8000/',
+      command: `./packages/bodiless-cli/bin/bodiless new -r HEAD --clone-local --dest '${sitePath}' --name '${siteName}' --site-template "__vital_next__" && cd '${sitePath}' && npm run dev`,
+    };
+    baseConfig.use!.baseURL = 'http://localhost:8000';
+    baseConfig.testMatch = '*editorMenu.spec.ts';
   },
 };
 /* eslint-enable no-param-reassign */

@@ -12,6 +12,6 @@ jobs:
     permissions:
       checks: write
       pull-requests: write
-    uses: dtargons/Bodiless-JS/.github/workflows/build-test-lint-simple.yml@dt_test3
+    uses: dtargons/Bodiless-JS/.github/workflows/build-test-lint-simple.yml@dt_test
     secrets: inherit
     if: ${{ github.event.label.name == 'ready-to-test' || github.event.label.name == 'skip-tests' }}

@@ -37,7 +37,7 @@ const configurators = {
     baseConfig.webServer = {
       ...defaultServerConfig,
       url: 'http://localhost:8000/',
-      command: `./packages/bodiless-cli/bin/bodiless new -r HEAD --clone-local --dest '${sitePath}' --name '${siteName}' --site-template "__vital_next__" && cd '${sitePath}' && npm run dev`,
+      command: `./packages/bodiless-cli/bin/bodiless new -r HEAD --clone-local --dest '${sitePath}' --name '${siteName}' --site-template "__vital_next__" && cd '${sitePath}' && cat package.json && npm run setup && npm run dev`,
     };
     baseConfig.use!.baseURL = 'http://localhost:8000';
     baseConfig.testMatch = '*editorMenu.spec.ts';

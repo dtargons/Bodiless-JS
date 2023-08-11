@@ -23,6 +23,7 @@ const getCurrentGitBranch = async () => {
   return gitBranchName;
 };
 
+console.warn('call module.exports');
 module.exports = {
   configure: async (defaultConfig) => {
     const finalConfig = { ...defaultConfig };
@@ -33,6 +34,7 @@ module.exports = {
         finalConfig.BODILESS_SEARCH_PARAMS = JSON.stringify(searchConf);
       }
     }
+    console.warn(finalConfig);
     if (await getCurrentGitBranch() === 'main') {
       finalConfig.BODILESS_BACKEND_COMMIT_ENABLED = '0';
     } else {

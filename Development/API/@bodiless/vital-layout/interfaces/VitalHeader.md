@@ -52,7 +52,7 @@ export default {
 
 #### Defined in
 
-[vital-layout/src/components/Header/tokens/vitalHeader.ts:132](https://github.com/dtargons/Bodiless-JS/blob/5e5762af/packages/vital-layout/src/components/Header/tokens/vitalHeader.ts#L132)
+[vital-layout/src/components/Header/tokens/vitalHeader.ts:132](https://github.com/dtargons/Bodiless-JS/blob/2c593824/packages/vital-layout/src/components/Header/tokens/vitalHeader.ts#L132)
 
 ___
 
@@ -64,4 +64,4 @@ Extendable token that adds language selector
 
 #### Defined in
 
-[vital-layout/src/components/Header/tokens/vitalHeader.ts:136](https://github.com/dtargons/Bodiless-JS/blob/5e5762af/packages/vital-layout/src/components/Header/tokens/vitalHeader.ts#L136)
+[vital-layout/src/components/Header/tokens/vitalHeader.ts:136](https://github.com/dtargons/Bodiless-JS/blob/2c593824/packages/vital-layout/src/components/Header/tokens/vitalHeader.ts#L136)

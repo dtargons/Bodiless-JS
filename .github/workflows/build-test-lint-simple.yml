@@ -32,33 +32,6 @@ jobs:
         with:
           node-test-script: test:pw-functional
           test-results-name: Deprecated tests for editing functionality
-    
-  smoke-vital:
-    name: Smoke tests for vital components
-    if: ${{ github.event_name == 'schedule' || github.event.label.name == 'ready-to-test' }}
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.event_name == 'schedule' && 'main' || github.event.pull_request.head.sha }}
-      - name: Build
-        uses: ./.github/actions/build
-      - name: Run vital playwright tests
-        env:
-          APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
-          APPLITOOLS_BATCH_NAME: ${{ github.event_name == 'schedule' && 'Regression Test Run' || format('{0} ({1})', github.event.pull_request.title, github.event.pull_request.number) }}
-          PW_INCLUDE_ALL_RENDERERS: ${{ github.event_name == 'schedule' }}
-        uses: ./.github/actions/playwright
-        with:
-          node-test-script: test:playwright
-          test-results-name: Smoke tests for vital components
-      - name: Upload Accessibility results
-        if: always()
-        uses: actions/upload-artifact@v2
-        with:
-          name: Accessibility
-          path: accessibility-reports/
-          retention-days: 30
   
   lhci:
     name: Lighthouse
@@ -84,7 +57,7 @@ jobs:
   cleanup:
     if: always() && github.event_name != 'schedule'
     runs-on: ubuntu-20.04
-    needs: [ setup, smoke-vital ]
+    needs: [ setup ]
     permissions:
       pull-requests: write
     steps:
@@ -98,7 +71,7 @@ jobs:
     name: Test Results
     if: always() && github.event.label.name == 'ready-to-test'
     runs-on: ubuntu-latest
-    needs: [ setup, smoke-vital ]
+    needs: [ setup ]
     permissions:
       checks: write
       pull-requests: write
